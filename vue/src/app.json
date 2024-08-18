@@ -1,0 +1,248 @@
+{
+  "theme": {
+    "backgroundColor": "#f0f0f0",
+    "mainColor": "#3498db",
+    "accentColor": "#e74c3c",
+    "textColor": "#333333"
+  },
+  "landingPage": {
+    "backgroundImage": "https://preview.redd.it/it-took-me-6-years-to-take-these-let-me-know-which-is-your-v0-xqjwsa67zvtb1.jpg?width=640&crop=smart&auto=webp&s=e6b5d650b15e8ce2a401ec64f62bf1d5334dccc0",
+    "image": "https://preview.redd.it/vxbf6j9wbpj51.jpg?width=3462&format=pjpg&auto=webp&s=c85182dd0bfcacf024ac2a2d874e003defe62bd9",
+    "gameTitle": "Good Hands",
+    "gameSubheading": "Test Your Skills",
+    "button": "Start Now"
+  },
+  "mechanicsPage": {
+    "backgroundImage": "https://i.redd.it/iiq6y3fnw7x81.jpg",
+    "heading": "How to Play",
+    "instruction": [
+      {
+        "instructionId": 1,
+        "icon": "https://example.com/icon.png",
+        "text": "get the highest score"
+      },
+      {
+        "instructionId": 2,
+        "icon": "https://example.com/icon.png",
+        "text": "get the highest score"
+      },
+      {
+        "instructionId": 3,
+        "icon": "https://example.com/icon.png",
+        "text": "get the highest score"
+      }
+    ],
+    "button": "Learn More"
+  },
+
+  "questionsPage": {
+    "backgroundImage": "https://preview.redd.it/0n1fv8h8f1n61.png?width=1440&format=png&auto=webp&s=4d1e9093d3b85ce60b3e9d42cf4f7bb09c16ebfa",
+    "questionNumber": "1 of 10",
+    "score": "0",
+    "questions": [
+      {
+        "id": 1,
+        "type": "singleAnswerMultipleChoices",
+        "question": "What is the capital of France?",
+        "image": "https://i.pinimg.com/564x/ea/fe/d1/eafed17dae066c35f1483d8f531e081a.jpg",
+        "choices": [
+          {
+            "id": 2,
+            "choice": "Paris",
+            "image": "https://i.pinimg.com/564x/89/11/29/89112957a13d7d2727cbc00a9b2ab61d.jpg",
+            "isCorrect": true,
+            "points": 10
+          },
+          {
+            "choice": "Berlin",
+            "image": "https://i.pinimg.com/564x/99/f0/04/99f0041fb4820eec2ea26fed0dfffd74.jpg",
+            "isCorrect": false,
+            "points": 0
+          },
+          {
+            "choice": "Madrid",
+            "image": "https://i.pinimg.com/564x/a5/25/1a/a5251ae65d6bd6f4c37d20b4eb54214c.jpg",
+            "isCorrect": false,
+            "points": 0
+          }
+        ]
+      },
+      {
+        "type": "multiAnswerMultipleChoices",
+        "question": "Select all prime numbers.",
+        "choices": [
+          {
+            "choice": "2",
+            "image": "https://i.pinimg.com/564x/8a/2f/7d/8a2f7d31702b3a236af5bad1d014c5a9.jpg",
+            "isCorrect": true,
+            "points": 10
+          },
+          {
+            "choice": "4",
+            "image": "https://i.pinimg.com/564x/4f/e2/1c/4fe21caa9f0852a70478a7cf6b43217f.jpg",
+            "isCorrect": false,
+            "points": 0
+          },
+          {
+            "choice": "7",
+            "image": "https://i.pinimg.com/564x/7b/e7/a7/7be7a7e8d73efefcead90849f32192bc.jpg",
+            "isCorrect": true,
+            "points": 10
+          }
+        ]
+      },
+      {
+        "type": "singleAnswerMultipleChoices",
+        "question": "Which of these tools do you feel good with?",
+        "choices": [
+          {
+            "choice": "Python",
+            "image": "https://i.pinimg.com/564x/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.jpg",
+            "isCorrect": true,
+            "points": 5
+          },
+          {
+            "choice": "HTML",
+            "image": "https://i.pinimg.com/564x/d5/73/2e/d5732ef24c8c3f3ad0132a61d0b0996a.jpg",
+            "isCorrect": true,
+            "points": 5
+          },
+          {
+            "choice": "Excel",
+            "image": "https://i.pinimg.com/736x/19/92/91/1992917f382f70752f1327c6f10e0a7a.jpg",
+            "isCorrect": true,
+            "points": 5
+          }
+        ]
+      },
+      {
+        "type": "multiAnswerMultipleChoices",
+        "question": "Choose the images that reflect you the most.",
+        "choices": [
+          {
+            "choice": null,
+            "image": "https://i.pinimg.com/564x/06/a5/7a/06a57ace69d0656fb296a45ed46755d9.jpg",
+            "isCorrect": true,
+            "points": 5
+          },
+          {
+            "choice": null,
+            "image": "https://i.pinimg.com/564x/5b/3d/e7/5b3de7f172795fb0d71c3f655f557de4.jpg",
+            "isCorrect": true,
+            "points": 5
+          },
+          {
+            "choice": null,
+            "image": "https://i.pinimg.com/564x/b7/08/96/b7089604179058440cda38aa420e021d.jpg",
+            "isCorrect": true,
+            "points": 5
+          },
+          {
+            "choice": null,
+            "image": "https://i.pinimg.com/736x/84/ff/ad/84ffad1617afbe9ad3aa618a3b0b93b9.jpg",
+            "isCorrect": true,
+            "points": 5
+          }
+        ]
+      },
+      {
+        "type": "openEndedResponse",
+        "question": "Describe your favorite programming language.",
+        "points": 15
+      },
+      {
+        "type": "singleAnswerMultipleChoices",
+        "question": "What is the largest planet in our solar system?",
+        "choices": [
+          {
+            "choice": "Jupiter",
+            "image": "https://i.pinimg.com/564x/42/0b/08/420b08dccd3aae7942ec1bfca2ffc442.jpg",
+            "isCorrect": true,
+            "points": 10
+          },
+          {
+            "choice": "Saturn",
+            "image": "https://i.pinimg.com/564x/90/c6/5a/90c65afdac81eb1ec8fa4f4c84e724ee.jpg",
+            "isCorrect": false,
+            "points": 0
+          },
+          {
+            "choice": "Earth",
+            "image": "https://i.pinimg.com/564x/46/5a/ea/465aeaadf12dd2f64c31d44456b16658.jpg",
+            "isCorrect": false,
+            "points": 0
+          }
+        ]
+      },
+      {
+        "type": "multiAnswerMultipleChoices",
+        "question": "Select the correct statements about the water cycle.",
+        "choices": [
+          {
+            "choice": "Evaporation is the process of water turning into vapor.",
+            "image": "https://i.pinimg.com/564x/b3/81/41/b38141028e45b43bff8e4f6bd1bc78a6.jpg",
+            "isCorrect": true,
+            "points": 10
+          },
+          {
+            "choice": "Condensation occurs when water vapor turns into liquid.",
+            "image": "https://i.pinimg.com/736x/e7/c3/7c/e7c37c21373f21ea9a4c8b0424da2bf0.jpg",
+            "isCorrect": true,
+            "points": 10
+          },
+          {
+            "choice": "Precipitation is when water vapor forms clouds.",
+            "image": "https://i.pinimg.com/564x/77/63/d5/7763d524f2b5a15325f597ff3f5465db.jpg",
+            "isCorrect": false,
+            "points": 0
+          }
+        ]
+      },
+      {
+        "type": "openEndedResponse",
+        "question": "Explain the concept of recursion in programming.",
+        "points": 15
+      },
+      {
+        "type": "ratingScale",
+        "question": "How would you rate your experience with this quiz?",
+        "points": 0
+      }
+    ]
+  },
+
+  "getResultsPage": {
+    "backgroundImage": "https://preview.redd.it/7rlhx8a7f1n61.jpg?width=1080&crop=smart&auto=webp&s=6de9fdd40f199edc5448dadfc72ace4b4b275c5e",
+    "image": "https://example.com/results-image.png",
+    "heading": "Your Results",
+    "inputForm": [
+      {
+        "Type": "Name"
+      },
+      {
+        "Type": "Email"
+      },
+      {
+        "Type": "Mobile Number"
+      },
+      {
+        "Type": "Gender"
+      }
+    ],
+    "button": "Submit"
+  },
+  "showResultsPage": {
+    "backgroundImage": "https://preview.redd.it/45igch37f1n61.jpg?width=640&crop=smart&auto=webp&s=30c6bae45d226e6a11f1d46777a3ae6d9be443bb",
+    "image": "https://example.com/show-results-image.png",
+    "heading": "Game Results",
+    "firstPage": {
+      "description": "You have completed the game."
+    },
+    "secondPage": {
+      "tips": "Check out these tips to improve your game.",
+      "smartInsightsLink": "https://example.com/tips"
+    },
+
+    "button": "Finish"
+  }
+}

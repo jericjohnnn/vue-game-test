@@ -1,0 +1,33 @@
+{
+    "title": "Sample Quiz",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multipleChoice",
+        "questionText": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "answer": "Paris"
+      },
+      {
+        "id": 3,
+        "type": "multipleChoice",
+        "questionText": "is jamal cool?",
+        "options": ["true", "false"],
+        "answer": "true"
+      },
+      {
+        "id": 6,
+        "type": "multipleChoice",
+        "questionText": "pili lang diha",
+        "options": ["hehe", "haha", "hoho", "huhu"],
+        "answer": "haha"
+      },
+      {
+        "id": 7,
+        "type": "multipleChoice",
+        "questionText": "nya sakto ni?",
+        "options": ["oo", "aa", "ii", "ee"],
+        "answer": "ee"
+      }
+    ]
+  }
